@@ -6,9 +6,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.jm.security.api"})
-public class Aes256ServiceApplication {
+public class SecurityServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Aes256ServiceApplication.class, args);
+		SpringApplication.run(SecurityServiceApplication.class, args);
 	}
 }
